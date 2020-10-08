@@ -210,5 +210,5 @@ def classificar_imc(meu_imc):
 imc = calcular_imc(73,1.77)
 print('Seu imc é: ', imc)
 
-print('Sua classificação é: ', classificar_imc)
+print('Sua classificação é: ', classificar_imc(imc))
 
